@@ -1,6 +1,13 @@
 # Mutations_near_mating_type
 Code and datas for figures of the article "The fate of deleterious or overdominant mutations near mating-type loci under partial selfing"
 
+
+The .png files contain the figures displayed in the paper.
+The .py files contain the codes used to produce data (simulate the branching process) and plot figures
+The files named 'Thisto....' or 'Tableau_concatene" are text files that contain the realisation of a certain number of independant run of the branching process, for a chosen selection scenario and a chosen parameter set (see the parameters used in the .py files named 'SimuBranchingProcess...'). 
+The tables 'Thisto...' contain one row, with the first eigth entries containing the parameters used, and the rest of the row the values of extinction time for each run. 
+'Tableau_concatene' contains multiple rows, with the first eight entries being the parameters used, and the rest of the rows the number of reproduction events that occurred for each run.
+
 Figure 2 :
 Python file containing codes and commands to produce the figure : Figure2_Heatmaps_VapOverdom.py
 Saved figure : Fig2_Heatmaps_Overdom.png
