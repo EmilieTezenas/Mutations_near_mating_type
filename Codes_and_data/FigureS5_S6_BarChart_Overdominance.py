@@ -69,7 +69,7 @@ def histolog_multiples_r(Tableau1, Tableau2, Tableau3):
     plt.legend(prop={'size':15},bbox_to_anchor=(0.5, 1.24), loc='upper center', ncol=4)
     plt.subplots_adjust(top=0.8)
     plt.show()
-    plt.savefig("FigS4_Histo_overdom_r.png")
+    plt.savefig("FigS5_Histo_overdom_r.png")
 
 
 
@@ -148,7 +148,7 @@ def histolog_multiples_f(Tableau1, Tableau2, Tableau3, Tableau4):
     plt.legend(prop={'size':15},bbox_to_anchor=(0.5, 1.26), loc='upper center', ncol=4)
     plt.subplots_adjust(top=0.8)
     plt.show()
-    plt.savefig("FigS5_Histo_overdom_f.png")
+    plt.savefig("FigS6_Histo_overdom_f.png")
 
 #==================================
 #Commands
